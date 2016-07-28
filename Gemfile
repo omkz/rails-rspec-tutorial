@@ -36,6 +36,7 @@ group :development, :test do
 
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'factory_girl_rails'
 end
 
 group :development do
@@ -53,4 +54,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :test do
   gem 'shoulda-matchers', require: false
   gem 'database_cleaner'
+  gem 'faker'
 end
